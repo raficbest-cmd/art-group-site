@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Каталог — ART Group</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+<body data-page="catalog">
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">ART Group</a>
+    <nav class="nav">
+      <a href="catalog.html" class="btn">Каталог</a>
+      <a href="#" class="btn btn--ghost">О компании</a>
+      <a href="#" class="btn btn--ghost">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container grid grid--catalog">
+  <aside class="filters">
+    <div class="filters__hdr">Фильтры</div>
+    <div class="filters__block">
+      <div class="filters__ttl">Производитель</div>
+      <div id="f-brands" class="chips"></div>
+    </div>
+    <div class="filters__block">
+      <div class="filters__ttl">Технология</div>
+      <div id="f-tech" class="chips"></div>
+    </div>
+    <button id="reset" class="btn btn--ghost block">Сбросить всё</button>
+  </aside>
+
+  <section class="products">
+    <div class="toolbar">
+      <label>Сортировка:</label>
+      <select id="sort">
+        <option value="popular">по популярности</option>
+        <option value="price-asc">по цене ↑</option>
+        <option value="price-desc">по цене ↓</option>
+      </select>
+      <span id="found" class="muted"></span>
+    </div>
+    <div id="grid" class="cards"></div>
+  </section>
+</main>
+
+<footer class="footer">© ART Group — каталог</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
