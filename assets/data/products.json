@@ -1,0 +1,77 @@
+[
+  {
+    "id": "rigel-20",
+    "brand": "Steingot",
+    "collection": "Ригель 2.0",
+    "technology": "Вибропресс",
+    "consumption": 36,
+    "popular": 98,
+    "variants": [
+      {"color":"Графит","hex":"#222","thickness":60,"price":1980},
+      {"color":"Графит","hex":"#222","thickness":80,"price":2190},
+      {"color":"Песочный","hex":"#d5b064","thickness":60,"price":1890},
+      {"color":"Терракота","hex":"#b6512d","thickness":60,"price":2090}
+    ]
+  },
+  {
+    "id": "landhaus",
+    "brand": "BRAER",
+    "collection": "Ландхаус",
+    "technology": "Вибропресс",
+    "consumption": 38,
+    "popular": 95,
+    "variants": [
+      {"color":"Графит","hex":"#2a2a2a","thickness":60,"price":1750},
+      {"color":"Серый","hex":"#8e8e8e","thickness":60,"price":1690},
+      {"color":"Серый","hex":"#8e8e8e","thickness":80,"price":1890}
+    ]
+  },
+  {
+    "id": "old-town",
+    "brand": "BRAER",
+    "collection": "Старый город",
+    "technology": "Вибропресс",
+    "consumption": 36,
+    "popular": 90,
+    "variants": [
+      {"color":"Серый","hex":"#8e8e8e","thickness":60,"price":1590},
+      {"color":"Графит","hex":"#222","thickness":60,"price":1690}
+    ]
+  },
+  {
+    "id": "klassiko",
+    "brand": "Steingot",
+    "collection": "Классико",
+    "technology": "Вибропресс",
+    "consumption": 36,
+    "popular": 88,
+    "variants": [
+      {"color":"Графит","hex":"#222","thickness":60,"price":1850},
+      {"color":"Песочный","hex":"#d5b064","thickness":60,"price":1790}
+    ]
+  },
+  {
+    "id": "duo",
+    "brand": "BRAER",
+    "collection": "Классико Duo",
+    "technology": "Вибропресс",
+    "consumption": 34,
+    "popular": 86,
+    "variants": [
+      {"color":"Серый","hex":"#8e8e8e","thickness":60,"price":1990},
+      {"color":"Графит","hex":"#222","thickness":80,"price":2190}
+    ]
+  },
+  {
+    "id": "odintsovo-sity",
+    "brand": "Одинцово",
+    "collection": "Сити",
+    "technology": "Вибролитьё",
+    "consumption": 32,
+    "popular": 80,
+    "variants": [
+      {"color":"Серый","hex":"#8e8e8e","thickness":60,"price":1490},
+      {"color":"Серый","hex":"#8e8e8e","thickness":80,"price":1650}
+    ]
+  }
+]
