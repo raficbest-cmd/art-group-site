@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Товар — ART Group</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+<body data-page="product">
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">ART Group</a>
+    <nav class="nav">
+      <a href="catalog.html" class="btn">Каталог</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container product">
+  <a href="catalog.html" class="btn btn--ghost">← Назад</a>
+
+  <div class="product__wrap">
+    <div class="product__media">
+      <div class="media__ph">Галерея (плейсхолдер)</div>
+    </div>
+
+    <div class="product__info">
+      <h1 id="p-name"></h1>
+      <div class="muted" id="p-sub"></div>
+
+      <div class="kv">
+        <div class="kv__row"><div>Цена</div><div id="p-price">—</div></div>
+        <div class="kv__row"><div>Расход</div><div id="p-cons">—</div></div>
+      </div>
+
+      <div class="opts">
+        <div class="opts__group">
+          <div class="opts__ttl">Цвет</div>
+          <div id="p-colors" class="swatches"></div>
+        </div>
+
+        <div class="opts__group">
+          <div class="opts__ttl">Толщина</div>
+          <div id="p-thk" class="chips"></div>
+        </div>
+      </div>
+
+      <div class="calc">
+        <div class="calc__row">
+          <label>Площадь, м²</label>
+          <input id="p-area" type="number" min="1" value="10">
+        </div>
+        <div class="calc__row">
+          <label>Расчёт ≈ шт/м²</label>
+          <input id="p-perm2" type="number" min="1" value="36">
+        </div>
+        <div class="calc__sum">
+          <div>Итого, шт: <b id="p-total-qty">—</b></div>
+          <div>Итого, ₽: <b id="p-total-cost">—</b></div>
+        </div>
+      </div>
+
+      <button class="btn btn--primary block">Связаться с менеджером</button>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">© ART Group — карточка товара</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
